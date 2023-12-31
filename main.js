@@ -122,3 +122,36 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
+
+
+ /* paste this line in verbatim */
+ window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+ /* customize formbutton below*/     
+ formbutton("create", {
+   action: "https://formspree.io/f/xpzvzwqe",
+   title: "How can we help?",
+   fields: [
+     { 
+       type: "email", 
+       label: "Email:", 
+       name: "email",
+       required: true,
+       placeholder: "anjord302@gmail.com"
+     },
+     {
+       type: "textarea",
+       label: "Message:",
+       name: "message",
+       placeholder: "Escribe tu mensaje...",
+     },
+     { type: "submit" }      
+   ],
+   styles: {
+     title: {
+       backgroundColor: "gray"
+     },
+     button: {
+       backgroundColor: "gray"
+     }
+   }
+ });
