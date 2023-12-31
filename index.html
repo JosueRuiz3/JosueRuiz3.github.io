@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <link rel="shortcut icon" href="img/CarbonPortfolio.png">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Portafolio | Andy Ruiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Ruiz</p>
+          <span></span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">Sobre mí</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Proyectos</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contacto</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+          <div class="nav-menu-btn" id="nav-icon" onclick="myMenuFunction()">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+        <div class="nav-button">
+          <a href="cv/CV Andy Josue Ruiz Diaz.pdf" download="CV Andy Ruiz.pdf">
+            <button class="btn">
+              Descargar CV <i class="uil uil-file-alt"></i>
+            </button>
+          </a>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Andy Ruiz</span>
+            </div>
+            <div class="featured-name">
+              <p>Soy <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Desarrollador de software junior apasionado por el aprendizaje
+                continuo y la constante mejora de habilidades técnicas.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a
+                href="cv/CV Andy Josue Ruiz Diaz.pdf"
+                download="CV Andy Ruiz.pdf"
+              >
+                <button class="btn">
+                  Descargar CV <i class="uil uil-file-alt"></i>
+                </button>
+              </a>
+            </div>
+            <div class="social_icons">
+              <div class="icon">
+                <a
+                  href="https://www.linkedin.com/in/andy-josue-ruiz-diaz-5250b8218/"
+                  target="_blank"
+                  ><i class="uil uil-linkedin-alt"></i
+                ></a>
+              </div>
+              <div class="icon">
+                <a href="https://github.com/JosueRuiz3" target="_blank"
+                  ><i class="uil uil-github-alt"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>Sobre mí</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>Mi introducción</h3>
+                <p>
+                  Desarrollador de software junior con experiencia en C#, Java y
+                  otras tecnologías avanzadas, frameworks y bibliotecas, lo que
+                  me capacita para implementar funciones interactivas. Además,
+                  tengo experiencia en el trabajo con metodologías ágiles y la
+                  capacidad de adaptarme rápidamente a nuevos entornos y
+                  desafíos.
+                </p>
+                <div class="about-btn">
+                  <a
+                    href="cv/CV Andy Josue Ruiz Diaz.pdf"
+                    download="CV Andy Ruiz.pdf"
+                  >
+                    <button class="btn">
+                      Descargar CV <i class="uil uil-import"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML5</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>jQuery</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>JAVA</span>
+                  <span>C#</span>
+                  <span>.NET Framework</span>
+                  <span>Spring Boot</span>
+                  <span>Asp.net Core</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Bases de datos</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                  <span>SQL Server</span>
+                  <span>Firebase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Proyectos</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-boxF">
+              <!-- <i class="uil uil-briefcase-alt"></i> -->
+              <h3>Gestor de combates</h3>
+              <label>Federación Costarricense de Taekwondo</label>
+            </div>
+            <div class="project-boxV">
+              <!-- <i class="uil uil-users-alt"></i> -->
+              <h3>Gestor de ventas</h3>
+              <label>Freelance</label>
+            </div>
+            <div class="project-boxFI">
+              <!-- <i class="uil uil-award"></i> -->
+              <h3>Informativo de cerámicas</h3>
+              <label>Freelance</label>
+            </div>
+            <div class="project-boxVE">
+                <!-- <i class="uil uil-award"></i> -->
+                <h3>Sistema gestor de ventas</h3>
+                <label>Proyecto Universitario</label>
+              </div>
+              <div class="project-boxU">
+                <!-- <i class="uil uil-award"></i> -->
+                <h3>Sistema Universidad</h3>
+                <label>Proyecto Universitario</label>
+              </div>
+              <div class="project-boxH">
+                <!-- <i class="uil uil-award"></i> -->
+                <h3>Gestor Hotel</h3>
+                <label>Proyecto Universitario</label>
+              </div>
+          </div>
+        </section>
+
+<!-- -------------- CONTACT BOX ---------------- -->
+<section class="section" id="contact">
+    <div class="top-header">
+      <h1>Contáctame</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="contact-info">
+          <h2>Encuéntrame <i class="uil uil-corner-right-down"></i></h2>
+          <p><i class="uil uil-envelope"></i> Email: anjord302@gmail.com</p>
+          <p><i class="uil uil-phone"></i> Tel: +506 64060470</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-control">
+            <form
+            action="https://formspree.io/f/xpzvzwqe"
+            method="POST">
+              <div class="form-inputs">
+              <input type="text" class="input-field" name="Nombre" placeholder="Nombre" />
+              <input type="email" class="input-field" name="Email" placeholder="Email" />
+            </div>
+            <div class="text-area">
+              <textarea name="Mensaje" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="form-button">
+              <button type="submit" class="btn">
+                Enviar <i class="uil uil-message"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Andy Ruiz</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list1" >
+              <a href="#about">Sobre mí</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Proyectos</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon">
+            <a
+              href="https://www.linkedin.com/in/andy-josue-ruiz-diaz-5250b8218/"
+              target="_blank"
+              ><i class="uil uil-linkedin-alt"></i
+            ></a>
+          </div>
+          <div class="icon">
+            <a href="https://github.com/JosueRuiz3" target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Andy Ruiz</a> - Todos
+            los derechos reservados
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xpzvzwqe",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "anjord302@gmail.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "Escribe tu mensaje...",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
