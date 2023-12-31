@@ -1048,6 +1048,17 @@ footer{
         width: 80%;
     }
 
+    .footer_menu_list1{
+        list-style: none;
+        width: 120px;
+    }
+    
+    .footer_menu_list1 a{
+        text-decoration: none;
+        color: var(--text-color-second);
+        font-weight: 500;
+        margin-inline: 20px;
+    }
 
 }
 
