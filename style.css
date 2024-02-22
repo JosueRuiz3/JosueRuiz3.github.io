@@ -445,8 +445,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/UNI/Screenshot_3.png') center/cover;
-    background-size: 370px 250px;
+    background: url('img/UNI/Blanco.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -492,8 +491,8 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/Federacion/Captura\ de\ pantalla\ 2023-12-29\ 154209.png') center/cover;
-    background-size:  375px;
+    background: url('img/Federacion/Blanco.png') center/cover;
+    
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -539,8 +538,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/H/Screenshot_2.png') center/cover;
-    background-size: 396px 252px;
+    background: url('img/H/Blanco.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -587,8 +585,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/Fiojo/Screenshot_1.png') center/cover;
-    background-size: 372px 260px;
+    background: url('img/Fiojo/Blanco.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -635,7 +632,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/VA/Screenshot_7.png') center/cover;
+    background: url('img/VA/Blanco.png') center/cover;
     background-size: 373px 260px;
     width: 100%;
     height: 100%;
@@ -682,8 +679,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/ventas/Screenshot_1\ \(1\).png') center/cover;
-    background-size: 396px 240px;
+    background: url('img/ventas/Blanco.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
