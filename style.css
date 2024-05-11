@@ -418,6 +418,7 @@ h3{
 
 /* PROYECT-BOX EN U  */
 .project-boxU{
+    text-decoration: none;
     position: relative;
     display: flex;
     justify-content: center;
@@ -464,6 +465,7 @@ h3{
 
 /* PROYECT-BOX EN FEDERACION  */
 .project-boxF{
+    text-decoration: none;
     position: relative;
     display: flex;
     justify-content: center;
@@ -511,6 +513,7 @@ h3{
 
 /* PROYECT-BOX EN H  */
 .project-boxH{
+    text-decoration: none;
     position: relative;
     display: flex;
     justify-content: center;
@@ -558,6 +561,7 @@ h3{
 
 /* PROYECT-BOX EN FI  */
 .project-boxFI{
+    text-decoration: none;
     position: relative;
     display: flex;
     justify-content: center;
@@ -605,6 +609,7 @@ h3{
 
 /* PROYECT-BOX EN V  */
 .project-boxV{
+    text-decoration: none;
     position: relative;
     display: flex;
     justify-content: center;
@@ -653,6 +658,7 @@ h3{
 
 /* PROYECT-BOX EN VE  */
 .project-boxVE{
+    text-decoration: none;
     position: relative;
     display: flex;
     justify-content: center;
