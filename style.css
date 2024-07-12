@@ -446,7 +446,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/UNI/Blanco.png') center/cover;
+    background: url('img/UNI/image.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -493,7 +493,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/Federacion/Blanco.png') center/cover;
+    background: url('img/Federacion/image.png') center/cover;
     
     width: 100%;
     height: 100%;
@@ -541,7 +541,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/H/Blanco.png') center/cover;
+    background: url('img/H/image.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -558,6 +558,53 @@ h3{
     z-index: 2;
 }
 
+
+/* PROYECT-BOX EN EN  */
+.project-boxEn{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+
+.project-boxEn>i{
+    font-size: 50px;
+    color: #00B5E7;
+    margin-bottom: 25px;
+}
+.project-boxEn label{
+    font-size: 15px;
+    color: #777;
+}
+.project-boxEn::after, .contact-info::after{
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    background: url('img/encriptador/image.png') center/cover;
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+    z-index: 1;
+}
+.project-boxEn:hover.project-boxEn::after,
+.contact-info:hover.contact-info::after{
+    bottom: 0;
+}
+.project-boxEn:hover.project-boxEn i,
+.project-boxEn:hover.project-boxEn>h3,
+.project-boxEn:hover.project-boxEn>label{
+    color: black;
+    z-index: 2;
+}
 
 /* PROYECT-BOX EN FI  */
 .project-boxFI{
@@ -589,7 +636,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/Fiojo/Blanco.png') center/cover;
+    background: url('img/Fiojo/image.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -637,8 +684,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/VA/appvya.png') center/cover;
-    /* background-size: 383px 260px; */
+    background: url('img/VA/image.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -686,7 +732,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: url('img/ventas/Blanco.png') center/cover;
+    background: url('img/ventas/image.png') center/cover;
     width: 100%;
     height: 100%;
     transition: .4s;
@@ -951,6 +997,10 @@ footer{
     .project-boxFI{
         width: 70%;
     }
+
+    .project-boxEn{
+        width: 70%;
+    }
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
@@ -1052,6 +1102,9 @@ footer{
         width: 70%;
     }
 
+    .project-boxEn{
+        width: 70%;
+    }
     .footer_menu_list1{
         list-style: none;
         width: 120px;
@@ -1090,6 +1143,11 @@ footer{
     .project-boxFI{
         width: 100%;
     }
+
+    .project-boxEn{
+        width: 100%;
+    }
+
     .project-boxU{
         width: 100%;
     }
