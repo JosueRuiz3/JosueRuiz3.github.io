@@ -667,7 +667,7 @@ h3 {
 .project-boxVN:hover.project-boxVN i,
 .project-boxVN:hover.project-boxVN>h3,
 .project-boxVN:hover.project-boxVN>label {
-    color: var(--color-white);
+    color: rgb(95, 95, 95);
     z-index: 2;
 }
 
